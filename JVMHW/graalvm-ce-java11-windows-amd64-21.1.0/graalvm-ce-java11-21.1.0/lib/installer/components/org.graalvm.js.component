@@ -1,0 +1,9 @@
+Bundle-Name=Graal.js
+Bundle-Symbolic-Name=org.graalvm.js
+Bundle-Version=21.1.0
+Bundle-RequireCapability=org.graalvm; filter\:\="(&(graalvm_version\=21.1.0)(os_name\=windows)(os_arch\=amd64)(java_version\=11))"
+x-GraalVM-Polyglot-Part=True
+x-GraalVM-Stability-Level=supported
+x-GraalVM-Stability=supported
+x-GraalVM-Working-Directories=languages\\js
+x-GraalVM-Component-Distribution=bundled
